@@ -114,7 +114,7 @@ class DeleteMid {
             dList.deleteFromMid();  
             //Printing updated list  
             System.out.println("Updated List: ");  
-            dList.display();  
+         );  
         }  
     }  
-}  
+
