@@ -30,16 +30,7 @@ class DeleteMid {
             //tail's next will point to null, as it is the last node of the list  
             tail.next = null;  
         }  
-        else {  
-            //newNode will be added after tail such that tail's next will point to newNode  
-            tail.next = newNode;  
-            //newNode's previous will point to tail  
-            newNode.previous = tail;  
-            //newNode will become new tail  
-            tail = newNode;  
-            //As it is last node, tail's next will point to null  
-            tail.next = null;  
-        }  
+       
         //Size will count the number of nodes present in the list  
         size++;  
     }  
